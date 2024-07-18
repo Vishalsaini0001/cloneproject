@@ -1,10 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MiddleSection from './components/MiddleSection';
 
 function App() {
   return (
     <>
-    <center>hello</center>
+    <MiddleSection/>
     </>
   );
 }
