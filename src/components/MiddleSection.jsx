@@ -3,7 +3,7 @@ import second from "../assets/images/middlesection2.jpeg";
 
 const MiddleSection = () => {
   return (
-    <div className="flex flex-row items-center ">
+    <div className="flex flex-row items-center mt-10 mb-10">
       <div className="w-3/4 flex justify-center">
         <img src={first} alt="Yacht" className="w-1/2 h-auto" />
       </div>

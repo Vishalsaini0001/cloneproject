@@ -3,7 +3,7 @@ import midle2 from '../assets/images/secondmiddle2.jpeg'
 
 const SecondMiddle = () => {
   return (
-    <div className="flex flex-row items-center ">
+    <div className="flex flex-row items-center mt-10 mb-10">
     <div className="w-3/4 flex justify-center">
       <img src={midle1} alt="Yacht" className="w-1/2 h-auto" />
     </div>
