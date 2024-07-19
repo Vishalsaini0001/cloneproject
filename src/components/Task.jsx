@@ -10,8 +10,8 @@ import FOURTH from './../assets/images/Fourth.jpeg';
 
 function Task() {
   return (
-    <div className="">
-      <div className="h-[100vh] w-[100vw] bg-black">
+    <div className="mt-32 mb-0">
+      <div className="h-[100vh] w-[100vw] bg-[#1c1c1c] ">
 
         <div className="flex gap-20 justify-center ">
 
@@ -29,7 +29,7 @@ function Task() {
           </p>
 
           <button className="h-10  w-56 border-gray-500 border-2 text-sm mt-5
-          hover:bg-white hover:text-black">
+          hover:bg-[#1c1c1c] hover:text-black">
             Explore Ritz-Carlton Reserve
           </button>
 
@@ -39,7 +39,7 @@ function Task() {
         {/* SECOND PHASE */}
 
       <div className="">
-      <div className="h-[100vh] w-[100vw] bg-black mt-20" >
+      <div className="h-[100vh] w-[100vw] bg-[#1c1c1c] mt-20" >
         <div className="flex justify-center gap-5">
         <div className=" text-white w-[470px]">
             <img src={FIRST} alt="FirstImage" className="w-auto h-[510px] shadow-black object-cover opacity-50 rounded-md"/>
