@@ -2,6 +2,7 @@ import './App.css';
 import MiddleSection from './components/MiddleSection';
 import Second from './components/Second';
 import SecondMiddle from './components/SecondMiddle';
+import Task from './components/Task';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
     <MiddleSection/>
     <Second/>
     <SecondMiddle/>
+    <Task />
     </>
   );
 }
